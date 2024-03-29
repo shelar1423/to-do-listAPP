@@ -36,6 +36,7 @@ header h1{
 	color:rgb(255, 247, 250);
 	margin-bottom: 0.6rem;
     margin-top: 3rem;
+	text-align: center;
 }
 
 header h1 span{
@@ -59,8 +60,13 @@ input, button {
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
+	margin-left:15rem;
 	color: var(--light);
 	font-size: 1.25rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
 }
 
 #new-task-input::placeholder {
@@ -77,6 +83,7 @@ background-color: #6D3A9C;
 	cursor: pointer;
 	transition: 0.4s;
 	padding: 10px;
+	margin-left: 20rem;
 }
 
 #new-task-submit:hover {
